@@ -1,0 +1,40 @@
+.block-1
+{ 
+    display: initial;
+}
+.block-2
+{ 
+    display: inline; 
+}
+
+#formulaire .recherche {
+    border-width : 1px;
+ }
+ form [type=search]{
+    border-style : dashed;
+    border-color : black;
+ }
+ form .recherche[type=search]{
+    border-width : 3px;
+    border-color : grey;
+ }
+ form .recherche{
+    border-style : dotted;
+    border-color : white;
+ }
+
+ .main{
+    position : relative;
+    left : 20px ;
+ }
+ .parent{
+    margin-left: 40px;
+ }
+ p{
+    position : static;
+    padding-left : 50px;
+ }
+ span{
+    position : absolute;
+    left : 10px;
+ }

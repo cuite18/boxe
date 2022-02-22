@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body
+{
+    background-color: black;
+    width: 100%;
+
+}
+.container
+{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+.moncompte
+{
+
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+
+}
+h4
+{
+    background-color: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.contactez
+{
+
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.contactez,a
+{
+    background-color: whitesmoke;
+}
+.bandeau
+{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+.grille1,.grille2,img
+{
+    display: flex;
+    flex: auto;
+    align-self: center;
+
+}
+article
+{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-content: center;
+    width: 70%;
+    background-color: whitesmoke;
+}
+.card
+{
+
+    width: 30%;
+    height:45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.produits
+{
+
+    width: 60%;
+    height: 30vh;
+    text-align: center;
+}
+p
+{
+
+    text-align: center;
+    flex: auto;
+    width: 100%;
+
+
+
+}
+footer.bas
+{
+    display: flex;
+    margin: 0 auto;
+
+    align-items: center;
+    width: 70%;
+    height: 40vh;
+
+
+}
+.bas
+
+.iconrond
+{
+    display: flex;
+    flex: auto;
+    width: 100%;
+    color: whitesmoke;
+}
+footer.socialicon
+{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
